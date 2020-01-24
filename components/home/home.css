@@ -1,0 +1,86 @@
+.pageheader {
+    font-weight: 300;
+    font-size: 45px;
+    color: #2d2d2d;
+    position: relative;
+    top: -5%;
+    left:-4%;
+    text-align: center;
+}
+.pageheaderprev {
+    font-weight: 300;
+    font-size: 45px;
+    color: #2d2d2d;
+    position: relative;
+    top: -5%;
+    left:-4%;
+}
+
+.shoeItem {
+    width: 400px;
+    height: 410px;
+    margin-right: 5px;
+    display: inline-block;
+    margin-top: -22px;
+    cursor: pointer;
+    transition: all 200ms ease-in 0s;
+    padding-bottom: 62px;
+}
+
+.imageholder {
+    height: 450px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    overflow: hidden;
+    transition: all 400ms ease-in 0s;
+}
+
+.shoeItem:hover  {
+    border-bottom: solid 1px #5d0303;
+    transition: all 200ms ease-in 0s;
+}
+
+.productkey {
+    position: relative;
+    bottom: -50px;
+    font-size: 12px;
+    left: 30px;
+    color: grey;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+img.shoeimage {
+    width: 100%;
+    height: 100%;
+}
+
+.descriptionholder {
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: -70px;
+    display: grid;
+    grid-template-columns: 70% 25%;
+}
+
+.shoename {
+    color: #3c3a3a;
+    /* padding-top: 18px; */
+    font-weight: 500;
+    font-size: 12px;
+    overflow: hidden;
+    width: 100%;
+    letter-spacing: 1px;
+    position: relative;
+    top: 19px;
+}
+
+.shoeprice {
+    color: #2d2d2d;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 0;
+    margin: 0 auto;
+}

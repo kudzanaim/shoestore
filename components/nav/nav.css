@@ -1,0 +1,218 @@
+
+.topbar {
+    display: grid;
+    place-content: center;
+}
+
+.logo_header {
+    font-family: roboto;
+    font-size: 13px;
+    font-weight: 900;
+    position: relative;
+    left: -25px;
+    top: -15px;
+    letter-spacing: 1px;
+}
+
+.sideBanner {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 30% 20% 50%;
+}
+
+.menu {
+    padding-left: 35px;
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 35px calc(100% - 45px);
+    cursor: pointer;
+    transition: all 180ms ease-in 0s;
+}
+
+.menu:hover .menuicon{
+    opacity: 0.8;
+    transform: scaleX(0.8);
+    transition: all 180ms ease-in 0s;
+}
+
+.menutext {
+    font-weight: 900;
+    font-size: 14px;
+    transition: all 180ms ease-in 0s;
+}
+
+.pagelinks {
+    padding-left: 10px;
+    padding-top: 20%;
+}
+
+.navitem a {text-decoration: none;font-weight: bolder;font-size: 18px;color: #2d2222;transition: all 180ms ease-in 0s;}
+
+.navitem {
+    margin-bottom: 20px;
+    padding-left: 35px;
+    transition: all 280ms ease-in 0s;
+}
+
+.navitem.activetab a {
+    color: #484646;
+    transition: all 280ms ease-in 0s;
+}
+
+a.linksocial {
+    text-decoration: none;
+    color: unset;
+}
+
+.socialitem {
+    font-weight: 600;
+    font-size: 15px;
+    color: #484646;
+    position: relative;
+    left: 35px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: all 280ms ease-in 0s;
+}
+
+.sociallinks {
+    padding-top: 55%;
+}
+.home{
+    padding-bottom: 100px;
+}
+
+.leftpanel {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 80px calc(100% - 80px);
+    box-shadow: 0px 7px 20px 5px #f9f9f5;
+    position: fixed;
+    width: 200px;
+}
+
+.l1 {
+    border-bottom: solid 3px black;
+    width: 50%;
+    margin-bottom: 3px;
+}
+
+.menuicon {
+    width: 25px;
+    position: relative;
+    top: 0px;
+    transition: all 180ms ease-in 0s;
+}
+
+
+.navitem.activetab {
+    border-left: solid 3px #b10b0b;
+    transition: all 110ms ease-in 0s;
+}
+
+.menu:hover .menutext {
+    font-weight: 700;
+    transition: all 180ms ease-in 0s;
+}
+
+.l2 {
+    border-bottom: solid 3px black;
+    margin-bottom: 3px;
+}
+
+.socialitem:hover {
+    color: #e62029;
+    transition: all 280ms ease-in 0s;
+}
+
+.l3 {
+    border-bottom: solid 3px black;
+    width: 50%;
+    margin-bottom: 4px;
+    float: right;
+}
+
+.rightpanel {
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    display: grid;
+    grid-template-rows: 85px 50px 50px;
+    padding-top: 25px;
+}
+
+.addtocart {
+    width: 100%;
+    font-size: 7px;
+    letter-spacing: 1px;
+    color: white;
+    display: grid;
+    grid-template-columns: 25% 30% 20%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.searchicon, .loginicon{
+    height: 20px;
+    width: 20px;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.search, .login{
+    height: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    opacity:0
+}
+
+.cartcount {
+    color: black;
+    font-size: 9px;
+    background: #ffeb00;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    display: grid;
+    place-content: center;
+    font-weight: 800;
+    position: relative;
+    left: -8px;
+    top: -5px;
+}
+
+.carttext {
+    color: black;
+    font-size: 10px;
+    display: grid;
+    place-content: center;
+    font-weight: 500;
+    position: relative;
+    top: 4px;
+}
+
+.carticoncont {
+    height: 35px;
+    width: 34px;
+    background: black;
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    position: relative;
+    top: 5px;
+    transform: scale(0.8);
+}
+
+img.carticon {
+    height: 11px;
+    width: 11px;
+}
+
+.iconcont {
+    display: grid;
+    place-content: center;
+    height: 35px;
+    width: 34px;
+}
